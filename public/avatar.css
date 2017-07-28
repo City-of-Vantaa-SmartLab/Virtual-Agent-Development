@@ -30,28 +30,19 @@ body {
 }
 
 #textOutputBox {
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    height: 600px;
-    background: url("./output-field-scale.png");
+    top: 1vw;
+    left: 3vw;
+    height: 35vh;
+    width: 95vw;
+    background: url("./Output-field.png") no-repeat;
     background-size: contain;
-    background-repeat: no-repeat;
-}
-
-@media screen and (orientation: portrait) {
-    #textOutputBox {
-    background: url("./Output-field.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 }
 
 #textOutput {
     top: 1vh;
     left: 5vw;
     right: 5vw;
-    width: 90vw;
+    width: 90vh;
     font-style: italic;
     font-size: 2vw;
 }
@@ -61,7 +52,7 @@ body {
     top: 35vh;
     width: 25vw;
     height: 25vh;
-    background: url("./bubble.png") no-repeat;
+    background: url("./bubble.png") no-repeat center;
     background-size: contain;
 }
 
@@ -105,12 +96,10 @@ body {
     }
     #textOutputBox {
         top: 1vw;
-    left: 3vw;
-    height: 35vh;
-    width: 95vw;
-    background: url("./Output-field.png") no-repeat;
-    background-size: contain;
-}
+        left: 3vw;
+        height: 50vh;
+        background: url("./Output-field.png") no-repeat;
+        background-size: 100% 70%;
     }
     #textOutput {
         top: 1vh;
